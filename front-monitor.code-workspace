@@ -2,6 +2,9 @@
   "folders": [
     { "name": "root", "path": "." },
     { "name": "core", "path": "./packages/core" },
+    { "name": "browser", "path": "./packages/browser" },
+    { "name": "helper", "path": "./packages/helper" },
+    { "name": "types", "path": "./packages/types" },
     { "name": "vue", "path": "./packages/vue" },
     { "name": "docs", "path": "./docs" },
   ]

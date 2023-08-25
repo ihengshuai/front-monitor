@@ -5,12 +5,12 @@ const cwdPath = process.cwd();
 const outputDir = path.join(cwdPath, "dist"); // 构建出口
 
 const rollupOptions = {
-  // external: ["pkg2"],
-  // output: {
-  //   globals: {
-  //     pkg2: "pkg2",
-  //   },
-  // },
+  external: ["@hengshuai/monitor-types"],
+  output: {
+    globals: {
+      "@hengshuai/monitor-types": "@hengshuai/monitor-types",
+    },
+  },
 };
 
 async function start() {

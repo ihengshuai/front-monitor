@@ -42,6 +42,7 @@ lerna-debug.log*
 !/.npmrc
 .env
 .env.*
+!.env.example
 .yalc
 yalc.lock
 
