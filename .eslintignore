@@ -1,0 +1,17 @@
+dist
+build
+lib
+node_modules
+.vscode
+.eslint*
+**/*.test.js
+*.log
+*.error
+*.lock
+postcss*
+scripts
+server
+typings/global.d.ts
+typings/vue.d.ts
+src/shims*.ts
+.cache

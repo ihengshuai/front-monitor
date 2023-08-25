@@ -1,0 +1,8 @@
+{
+  "folders": [
+    { "name": "root", "path": "." },
+    { "name": "core", "path": "./packages/core" },
+    { "name": "vue", "path": "./packages/vue" },
+    { "name": "docs", "path": "./docs" },
+  ]
+}

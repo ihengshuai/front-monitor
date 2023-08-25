@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/iamyoki/better-scripts/main/lib/schema.json",
+  "dev": {
+    "alias": "Dev",
+    "desc": "正在启动本地开发服务",
+    "command": "echo 22"
+  },
+  "build": {
+    "alias": "Build",
+    "desc": "打包组件",
+    "command": "pnpm --filter @hengshuai/monitor-core build"
+  },
+  "docs": {
+    "alias": "Docs",
+    "desc": "正在启动本地文档",
+    "command": "pnpm --filter docs dev"
+  },
+  "test:unit": {
+    "alias": "Unit Test",
+    "desc": "单元测试",
+    "command": "pnpm --filter @hengshuai/monitor-core test:unit"
+  }
+}
