@@ -40,9 +40,9 @@ module.exports = {
       "error",
       {
         selector: "interface",
-        format: ["PascalCase"],
+        format: ["UPPER_CASE"],
         custom: {
-          regex: "^I[A-Z]",
+          regex: "^HS_MONITOR_([A-Z]|_)",
           match: true,
         },
       },

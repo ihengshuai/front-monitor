@@ -5,7 +5,7 @@
   "main": "dist/monitor-core.umd.js",
   "module": "dist/monitor-core.mjs",
   "style": "dist/style.css",
-  "types": "dist/types/index.d.ts",
+  "types": "dist/src/index.d.ts",
   "files": [
     "dist/**/*"
   ],
